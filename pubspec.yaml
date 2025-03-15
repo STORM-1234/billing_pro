@@ -1,0 +1,51 @@
+name: billing_pro
+description: "A new Flutter project."
+publish_to: 'none'  # Prevents accidental publication to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase & Firestore
+  firebase_core: ^3.12.0
+  cloud_firestore: ^5.6.4
+  firebase_storage: ^12.4.3
+
+    # SQLite for local DB
+
+  sqlite3_flutter_libs: ^0.5.11
+    # Optional connectivity check
+  connectivity_plus: ^4.0.0
+  sqflite_common_ffi: ^2.3.5
+  searchable_listview: ^2.16.0
+
+  # File handling & Excel
+  file_picker: ^9.0.0
+  excel: ^4.0.6
+  searchfield: ^1.2.4
+  # Other packages
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  path_provider: ^2.0.11
+  table_calendar: ^3.0.8
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  uuid: ^4.5.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Make sure your Crown.png image is located in lib/Assets/
+  assets:
+    - lib/Assets/Crown.png

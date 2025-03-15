@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "billing_pro"
+location: "asia-east1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "billing_pro-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

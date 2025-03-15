@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "billing-pro-2d3b6",
+          "appId": "1:822802912014:android:d61a2217e909ca7a3b7d5f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "billing-pro-2d3b6",
+          "configurations": {
+            "android": "1:822802912014:android:d61a2217e909ca7a3b7d5f",
+            "windows": "1:822802912014:web:ee924cbcb3b383c43b7d5f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}
