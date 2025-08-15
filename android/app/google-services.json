@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:822802912014:android:d61a2217e909ca7a3b7d5f",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.billing_pro"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB0M1m3dTTu0ZNu7YDwopb6J7Sa2kpAzR8"
+          "current_key": "Enter your api key"
         }
       ],
       "services": {
