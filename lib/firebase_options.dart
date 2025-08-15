@@ -50,16 +50,16 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB0M1m3dTTu0ZNu7YDwopb6J7Sa2kpAzR8',
-    appId: '1:822802912014:android:d61a2217e909ca7a3b7d5f',
+    apiKey: 'Private',
+    appId: 'Private',
     messagingSenderId: '822802912014',
     projectId: 'billing-pro-2d3b6',
     storageBucket: 'billing-pro-2d3b6.firebasestorage.app',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyC4Sg2BJ2inAfLIf-H3fu-kqBI0PIF1y5c',
-    appId: '1:822802912014:web:ee924cbcb3b383c43b7d5f',
+    apiKey: 'Private',
+    appId: 'Private',
     messagingSenderId: '822802912014',
     projectId: 'billing-pro-2d3b6',
     authDomain: 'billing-pro-2d3b6.firebaseapp.com',
