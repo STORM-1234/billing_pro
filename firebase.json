@@ -4,7 +4,7 @@
       "android": {
         "default": {
           "projectId": "billing-pro-2d3b6",
-          "appId": "1:822802912014:android:d61a2217e909ca7a3b7d5f",
+          "appId": "Private",
           "fileOutput": "android/app/google-services.json"
         }
       },
@@ -12,8 +12,8 @@
         "lib/firebase_options.dart": {
           "projectId": "billing-pro-2d3b6",
           "configurations": {
-            "android": "1:822802912014:android:d61a2217e909ca7a3b7d5f",
-            "windows": "1:822802912014:web:ee924cbcb3b383c43b7d5f"
+            "android": "",
+            "windows": ""
           }
         }
       }
